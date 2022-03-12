@@ -18,7 +18,7 @@ public class ProtobootappApplication {
         SpringApplication.run(ProtobootappApplication.class, args);
     }
 
-    //Se ejecuta con http://localhost:8080/
+    //Se ejecuta con http://localhost:8080/ or another URL
     @GetMapping("/")
     public String index() {
         return String.format("Bienvenido! Esta aplicación ayuda a elevar números a sus potencias y otras características.");
